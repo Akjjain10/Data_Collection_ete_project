@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Data Collection
+        </title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body><div class="navbar"><a href="index.html"><button class="navbtn" id="navbtn1">Profile</button></a><a href="userinfo.html"><button class="navbtn" id="navbtn2">User Info</button></a></div>
+        <center><h1><span style="font-size: larger;">PROFILE</span></h1></center>
+        <div id="form1">
+            <form onsubmit="return false">
+              <label for="name"><b>Name:</b></label><br>
+              <input type="text" id="name" name="name" placeholder="Name...." required><br>
+
+              <label for="age"><b>Age:</b></label><br>
+              <input type="number" id="age" name="age" placeholder="Age...." required><br>
+
+              <label for="email"><b>E-mail ID:</b></label><br>
+              <input type="text" id="email" name="email" placeholder="Email ID...." required><br>
+
+              <label for="address"><b>Address:</b></label><br>
+              <input type="text" id="address" name="address" placeholder="Address...." required><br>
+
+              <label for="phone"><b>Phone Number:</b></label><br>
+              <input type="number" id="phone" name="phone" placeholder="Phone Number...." required><br>
+            
+              <input type="submit" id="btn" value="Submit">
+            </form>
+        </div>
+          <div id="outputdiv">
+
+          </div>
+          <script src="scripts/script.js"></script>
+    </body>
+</html>
